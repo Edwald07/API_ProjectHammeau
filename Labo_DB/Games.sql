@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Games]
+(
+	[GameID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [DateGame] DATETIME NOT NULL, 
+    [UserNumber] INT NOT NULL, 
+    [IsPlay] BIT NOT NULL DEFAULT 0,
+)

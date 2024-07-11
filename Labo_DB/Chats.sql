@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Chats]
+(
+	[ChatID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Type] NCHAR(10) NOT NULL, 
+    [GameID] INT NOT NULL
+    CONSTRAINT [FK_Chats_Games] FOREIGN KEY ([GameID]) REFERENCES [Games]([GameID])
+)

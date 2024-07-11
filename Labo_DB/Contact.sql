@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Table1]
+(
+	[ContactID] INT NOT NULL PRIMARY KEY, 
+    [Pseudo] NVARCHAR(MAX) NOT NULL
+)
